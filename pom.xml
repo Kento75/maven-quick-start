@@ -12,6 +12,14 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.9</version>
+    </dependency>
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>
